@@ -54,13 +54,14 @@ Because the target is imbalanced, accuracy is interpreted together with ROC-AUC,
 ## Repository structure
 ```text
 ML-Assignment-2/
-├── ML_Assignment_2_Online_Shoppers.ipynb
 ├── app.py
 ├── requirements.txt
 ├── README.md
 ├── test_data.csv
 ├── model_metrics.csv
 ├── model_metadata.json
+└── notebook/
+    └── 2026aj05079.ipynb
 └── model/
     ├── logistic_regression.joblib
     ├── decision_tree.joblib
@@ -68,5 +69,3 @@ ML-Assignment-2/
     ├── gaussian_nb.joblib
     └── svm.joblib
 ```
-
-
